@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import BlogPost from './BlogPost.js'
 import ColorBox from './ColorBox.js'
+// need to import children components
 
+// creating the outer HTML for the page and also...
+// using BlogPost and ColorBox components to do so
 class App extends Component {
-  
-  // Nothing needs to change here! 
-  // Make note of what prop we are initially passing to `ColorBox` below!
-  
+
   render() {
     return (
       <div id="app">
@@ -19,5 +19,5 @@ class App extends Component {
     )
   }
 }
-
+// need to export so children can access parent
 export default App;
